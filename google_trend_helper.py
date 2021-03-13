@@ -18,6 +18,7 @@ def trendhelper():
     while words != '!':
         words = input('')
         list_of_words.append(words)
+
 # Delete  ' ! ' from the words list 
 
     del list_of_words[-1]
